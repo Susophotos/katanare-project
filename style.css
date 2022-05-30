@@ -1,0 +1,244 @@
+
+/*--------------------------------------------css de pestaña portfolio-------------------------------------*/
+
+html{
+
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+    
+body{
+    
+    
+    margin: 0;
+    background-color: #faf2fb
+
+}
+
+/* menu */
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+
+}
+#menu {
+    display: flex;
+    height: 10px;
+    justify-content: center;
+    transition: background-color 1s ease;
+    text-align: center;
+    color: #fff;
+    background: rgb(57, 57, 57);
+    position: sticky;
+    top: 0;
+    height: 35px;
+
+}
+
+#menu ul li {
+
+    display: inline-block;
+
+
+
+}
+
+#menu ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: 0.5s ease;
+}
+
+#menu ul li a:hover{
+
+    background-color:aquamarine;
+    color: #222;
+
+}
+
+/*encabezado*/
+header {
+
+  
+background-color: #222;
+color: white;
+padding: 2rem 1rem;
+animation-name: coloresh1;
+animation-duration: 3s ;
+animation-timing-function: ease-in-out;
+animation-iteration-count: initial;
+}
+
+@keyframes coloresh1 {
+    0% {
+        color: #fff;
+    }
+    
+    
+    50% {
+        color: #ED99FF;
+    }
+
+    
+    96% {
+        color: aquamarine;
+    }    
+}
+
+header h1 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+/*articulos*/
+
+article {
+    min-height: fit-content;
+}
+
+section {
+    display: grid;
+    min-height: 1000px;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* esta seccion centra los container*/
+.container {
+
+width: 60%;
+margin:0 auto;
+}
+
+
+
+/*esta seccion contiene los elementos de los post*/
+section article {
+
+    transition: box-shadow 0.3s ease;
+    background-color: aquamarine ;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    
+
+
+}
+/*esta seccion contiene la animacion de hover*/
+section article:hover {
+
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.6);
+
+
+}
+
+
+section article h2, section article p {
+
+    margin: 1rem;
+}
+
+
+
+/*
+/*Seccion de footer*/
+footer {
+   
+    
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+
+}
+
+
+footer p {
+    margin: 1rem;
+    text-align: center;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+
+
+  
+}
+
+footer a:hover {
+
+    color:#ED99FF;
+
+}
+
+
+
+/* Formulario de contacto*/
+
+.h2formulario {
+    text-align: center;
+    margin: 3rem;
+}
+
+#divcontacto {
+    text-align: center;
+}
+
+input {
+    margin: 2rem;
+    border: 0;
+    transition: 0.5s ease;
+   
+}
+
+#submit:hover {
+    background-color: aquamarine;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    
+}
+
+/*responsive*/
+
+.contenedor123 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 2500px;
+}
+
+.flex-container-ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.formulario-responsive {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    j
+}
+
+/*nombre de empresa*/
+
+.nombre-de-empresa {
+
+    
+
+    
+    
+}
